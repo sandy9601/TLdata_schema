@@ -5,9 +5,9 @@ const worksschema = new mongoose.Schema({
         type:String
     },
     photo:{
-        type:String    // * we have to store picture of the work detail
+        type:String    // * we have to store picture of the work detail in one of cloud services e i amazon aws-s3-
     },
-    description:{
+    jobdescription:{
         type:String
     },
     location:{

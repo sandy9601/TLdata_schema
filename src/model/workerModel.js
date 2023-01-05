@@ -12,6 +12,9 @@ const workerschema = new mongoose.Schema({
         required:true,
         trim:true
    },
+   workexperience:{
+    type:Number
+   },
    contactNumber:{
     type:Number,
     required:true,
@@ -19,6 +22,9 @@ const workerschema = new mongoose.Schema({
    email:{
     type:String,
     required:true,
+   },
+   password:{
+    type:String  // * we will store hashed pasword of users in database
    },
    skills:{
     type:Array,

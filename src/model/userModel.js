@@ -21,7 +21,7 @@ const userschema = new mongoose.Schema({
         required:true
     },password:{
         type:String,
-        required:true,
+        required:true,     // * we can store hashed password in our database
         trim:true
     },
     profilePicture:{
